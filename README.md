@@ -41,14 +41,6 @@ The SQL file includes:
 - `INSERT INTO` commands with sample data for all three tables
 - Proper usage of `PRIMARY KEY` and `FOREIGN KEY` constraints
 
-# ER Diagram
-
-![ER Diagram](./er-diagram.png)
-
-- One member can issue many books.
-- A book can be issued to many members over time.
-- `library_transaction` is the associative (junction) entity.
-
 # Sample Queries
 
 ```sql
